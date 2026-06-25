@@ -55,13 +55,12 @@ Untuk menjalankan Jupyter Notebook dalam proyek ini, Anda memerlukan versi Pytho
    ```bash
    jupyter notebook
    ```
-4. **Buka file** `strawberry_mobilenetv2.ipynb` atau `strawberry_mlpclassifier.ipynb` melalui browser.
-5. Jalankan sel kode satu per satu *(Run All)*. Pastikan sel pendefinisian direktori membaca lokasi dari folder `strawberryDataset/` dan `testingDataset/` dengan tepat.
+4. **Buka file** `strawberry_mobilenetv2.ipynb` atau `strawberry_mlpclassifier.ipynb` melalui IDE/Browser.
+5. Jalankan cell *(Run All)*. Pastikan cell pendefinisian direktori membaca lokasi dari folder `strawberryDataset/` dan `testingDataset/` dengan tepat.
 
 ## Tentang Dataset
 
-Dataset diperoleh dari https://www.kaggle.com/datasets/abdulbasit31/strawberry-dataset
-Gambar-gambar dibagi ke dalam 2 kelas:
+Dataset diperoleh dari https://www.kaggle.com/datasets/abdulbasit31/strawberry-dataset, gambar-gambar dibagi ke dalam 2 kelas:
 - **Pickable**: Stroberi yang sudah merah, matang merata, dan siap dipanen.
 - **UnPickable**: Stroberi yang masih berwarna hijau, putih (belum matang), atau dalam kondisi busuk/rusak.
 
